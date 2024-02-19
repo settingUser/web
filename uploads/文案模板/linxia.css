@@ -1,0 +1,81 @@
+.preview_appmsg .rich_media_area_primary {
+  padding-top: 10px;
+}
+
+.videos {
+  width: 100%;
+}
+
+.video1 {
+  height: 200px;
+}
+
+.weixinqu {
+  border: 2px solid #4b4b4b;
+  padding: 10px 10px;
+  box-sizing: border-box;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.rich_media_area_primary {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#fangan2 img {
+  display: block;
+  width: 100%;
+}
+
+#fangan2 .add {
+  display: none;
+  z-index: 5;
+  position: fixed;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  width: 18%;
+}
+
+#pop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  background-color: rgba(0, 0, 0, .6);
+  display: none;
+  z-index: 10;
+}
+
+.popBox {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.popBox div {
+  width: 90%;
+  position: relative;
+}
+
+.popBox span {
+  user-select: none;
+  box-sizing: unset;
+  font-size: 16px !important;
+  width: 1rem;
+  height: 1rem;
+  text-align: center;
+  line-height: 0.8rem;
+  letter-spacing: normal;
+  padding: 0.3rem;
+  background-color: #8d8b8b;
+  border-radius: 1rem;
+  position: absolute;
+  top: -1.8rem;
+  right: 0;
+}
