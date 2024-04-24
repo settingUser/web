@@ -1,19 +1,19 @@
-(()=>{
-const arg = getURLParameters();
- fetch(`https://www.jfchat.cn/api/api/gano/common-url/get-weix-url?code=${arg.arg}`,{
-    method: 'GET',
- }).then(response=>{
-if(response.ok){
-response.json().then(data=>{
-    console.log(data)
-    if(data.success){
-        window.location.href = data.data.url_link;
-    }
-})
-}
+(() => {
+    const arg = getURLParameters();
+    fetch(`https://www.jfchat.cn/api/api/gano/common-url/get-weix-url?code=${arg.arg}`, {
+        method: 'GET',
+    }).then(response => {
+        if (response.ok) {
+            response.json().then(data => {
+                console.log(data)
+                if (data.success) {
+                    window.location.href = data.data.url_link;
+                }
+            })
+        }
 
 
- })
+    })
 
 })()
 function getURLParameters() {
