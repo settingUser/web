@@ -5,7 +5,6 @@
     }).then(response => {
         if (response.ok) {
             response.json().then(data => {
-                console.log(data)
                 if (data.success) {
                     window.location.href = data.data.url_link;
                 }
